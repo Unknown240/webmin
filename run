@@ -1,4 +1,7 @@
 echo "author : clvnflrnsyh"
+echo ""
+echo ""
+sleep 5
 apt-get update && apt-get upgrade
 wget http://downloads.sourceforge.net/project/webadmin/webmin/1.770/webmin-1.770.tar.gz
 tar zxvf webmin-1.770.tar.gz
