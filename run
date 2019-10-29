@@ -9,4 +9,4 @@ cd webmin-1.770
 sleep 3
 sh setup.sh
 
-echo "buka http://ip_server_anda:10000"
+echo "buka https://ip_server_anda:10000"
