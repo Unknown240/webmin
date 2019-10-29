@@ -1,0 +1,10 @@
+echo "author : clvnflrnsyh"
+wget http://downloads.sourceforge.net/project/webadmin/webmin/1.770/webmin-1.770.tar.gz
+tar zxvf webmin-1.770.tar.gz
+cp –rvf webmin-1770 /usr/local/src
+cd /usr/local/src/webmin-1770
+echo "CONFIG WEBMIN"
+sleep 3
+sh setup.sh
+
+echo "buka http://ip_server_anda:10000"
